@@ -3,7 +3,7 @@ import pandas as pd
 
 # 2. Tell Python where our raw CSV file is
 # We use 'r' before the string to tell Python it's a raw file path (prevents errors with backslashes)
-file_path = r'raw_data\olist_orders_dataset.csv'
+file_path = 'raw_data/olist_orders_dataset.csv'
 
 # 3. Read the CSV file into a Pandas DataFrame (think of a DataFrame as an Excel table in memory)
 print("Reading the orders data...")
